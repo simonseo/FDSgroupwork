@@ -9,13 +9,29 @@
 	<!-- Header Menu Start -->
 	<header>
 		<nav>
-			<a href="#"><img src="https://placehold.it/100x45/eee/00345E/?text=Expedia" alt="Expedia Logo"></a>
-			<a href="#">홈</a>
-			<a href="#">항공</a>
-			<a href="#">호텔</a>
-			<a href="#">특가상품</a>
-			<a href="#">렌트카</a>
-			<a href="#">쿠폰</a>
+			<ul>
+				<li>
+					<a href="#"><img src="https://placehold.it/100x45/eee/00345E/?text=Expedia" alt="Expedia Logo"></a>
+				</li>
+				<li>
+					<a href="#">홈</a>
+				</li>
+				<li>
+					<a href="#">항공</a>
+				</li>
+				<li>
+					<a href="#">호텔</a>
+				</li>
+				<li>
+					<a href="#">특가상품</a>
+				</li>
+				<li>
+					<a href="#">렌트카</a>
+				</li>
+				<li>
+					<a href="#">쿠폰</a>
+				</li>
+			</ul>
 		</nav>
 		
 		<select name="language" id="language">
@@ -80,8 +96,7 @@
 				<li>
 					<a href="#">
 						<div>
-							<!-- 매진임박은 평소에 숨겨져있다가 상품이 부족해지면 보이는 부분 -->
-							<p class="readable-hidden">매진임박</p>
+							<!-- 점수, 가격, 항공편 등은 중요한 정보고 동적으로 수정하기 쉽도록 em 요소를 사용함 -->
 							<img src="https://placehold.it/250x150/000/fff/?text=Marina Bay Sands" alt="Singapore Marina Bay Sands Hotel">
 							<h4>싱가포르</h4>
 							<h6>싱가포르</h6>
@@ -95,7 +110,6 @@
 				<li>
 					<a href="#">
 						<div>
-							<p class="readable-hidden"></p>
 							<img src="https://placehold.it/250x150/000/fff/?text=Familia Sagrada" alt="Barcelona Familia Sagrada">
 							<h4>바르셀로나</h4>
 							<h6>스페인</h6>
@@ -108,8 +122,8 @@
 				</li>
 				<li>
 					<a href="#">
-
 						<div class="almost-sold-out sale-five-percent">
+							<!-- 매진임박 및 세일 정보는 평소에 숨겨져있다가 상품이 부족해지면 보이는 부분 -->
 							<p class="readable-hidden">매진임박</p>
 							<img src="https://placehold.it/250x150/000/fff/?text=Rome Colloseum" alt="Rome Colloseum">
 							<h4>로마</h4>
@@ -131,12 +145,12 @@
 			<ul>
 				<li class="recommend"><span class="readable-hidden">추천</span><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=Las+Vegas" alt="Las Vegas"></a></li>
 				<li class="recommend"><span class="readable-hidden">추천</span><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=Seattle" alt="Seattle"></a></li>
-				<li><span class="readable-hidden">추천</span><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=London" alt="London"></a></li>
-				<li><span class="readable-hidden">추천</span><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=Melbourne" alt="Melbourne"></a></li>
-				<li><span class="readable-hidden">추천</span><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=New+York" alt="New+York"></a></li>
-				<li><span class="readable-hidden">추천</span><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=Honolulu" alt="Honolulu"></a></li>
-				<li><span class="readable-hidden">추천</span><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=Belgium" alt="Belgium"></a></li>
-				<li><span class="readable-hidden">추천</span><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=More" alt="More"></a></li>
+				<li><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=London" alt="London"></a></li>
+				<li><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=Melbourne" alt="Melbourne"></a></li>
+				<li><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=New+York" alt="New+York"></a></li>
+				<li><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=Honolulu" alt="Honolulu"></a></li>
+				<li><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=Belgium" alt="Belgium"></a></li>
+				<li><a href="#"><img src="https://placehold.it/200x100/000/fff/?text=More" alt="More"></a></li>
 			</ul>
 		</section>
 		<!-- Suggestion Section Finish -->
